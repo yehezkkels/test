@@ -24,12 +24,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾BOT`SADBOY👾',
-    instagram: 'https://instagram.com/eelpanteq_',
-    nomer: 'wa.me/6281310168655',
+    A187: '👾AR15BOT👾',
+    instagram: 'https://instagram.com/_sadboy.ig',
+    nomer: 'wa.me/6285722553839',
     aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UC75SUzfjOk3amH31y_yh3Xw',
-    whatsapp: 'https://chat.whatsapp.com/D6gflzSfpOU65rBNnvtkkg',
+    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
+    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -197,7 +197,7 @@ client.on('message-new', async (m) => {
            client.sendMessage(id, beruang.beruang(id), MessageType.text)
            break
 		case 'love':
-           client.sendMessage(id, love.love(id, MessageType.text)
+           client.sendMessage(id, love.love(id), MessageType.text)
            break   
        case 'laknat':
            client.sendMessage(id, laknat.laknat(id), MessageType.text)
