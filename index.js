@@ -28,8 +28,8 @@ const config = {
     instagram: 'https://instagram.com/eelpanteq_',
     nomer: 'wa.me/6281310168655',
     aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
-    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
+    youtube: 'https://youtube.com/channel/UC75SUzfjOk3amH31y_yh3Xw',
+    whatsapp: 'https://chat.whatsapp.com/D6gflzSfpOU65rBNnvtkkg',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
